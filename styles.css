@@ -1,0 +1,65 @@
+.teal {
+    background-color: lightseagreen;
+    margin-top: 0;
+    padding: 25px;
+    padding-bottom:0;
+    padding-top: px;
+}
+
+.textDescription {
+    width: 60%;
+    margin-left: 25px;
+    font-size: large;
+    padding: 10px;
+    border: solid 1px black
+}
+
+#sidebar {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: lightgray;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    width: 15%;
+    display: none;
+}
+
+#closeButton {
+    width: 75%;
+    margin-left: 12.5%;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#openButton {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
+#home {
+    margin-left: 50px;
+    margin-top: 20px;
+    display: block;
+}
+#github {
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 20px;
+    display: block;
+}
+#linkedIn {
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 20px;
+    display: block;
+}
+#resume {
+    width: 100%;
+    margin-left:50px;
+    margin-top: 20px;
+    display: block;
+}
